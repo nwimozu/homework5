@@ -1,0 +1,14 @@
+mkdir CS510 #This is to create the first directory/folder
+cd CS510    #To change directory so that 500 subdirectories can be created
+
+for i in {1..500}  #This is the for loop to solve the problem
+do
+mkdir $i
+echo "I live in California
+I like Mathematics
+I study at Chapman University
+I study Computational and Data Science
+I am a graduate student
+ This is fun
+In fact, it is interesting" >$i/file.txt
+done
